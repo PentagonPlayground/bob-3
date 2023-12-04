@@ -4,8 +4,8 @@ import { ThemeContext } from '../components/ThemeContext'
 
 import '../tailwind.css'
 
-import { styles as kevinStyles } from '../themes/kevin/styles'
-import { styles as websiteStyles } from '../themes/website/styles'
+import { styles as kevinStyles } from '../themes/kevin/styles.ts'
+import { styles as websiteStyles } from '../themes/website/styles.ts'
 
 const stylesMap = {
   kevin: kevinStyles,
